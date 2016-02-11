@@ -17,3 +17,7 @@
 
 ;; Init
 (require 'init-package)
+(require 'init-gui)
+
+
+(provide 'init)

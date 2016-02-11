@@ -1,8 +1,8 @@
 ;; package repos
 (require 'package)
 
-(add-to-list 'package-arhives '("marmalade" . "http://marmalade-repo.org/packages/"))
-(add-to-list 'package-archive '("melpa" . "http://melpa.milkbox.net/packages/"))
+(add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/"))
+(add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/"))
 (package-initialize)
 
 (defun require-package (package &optional min-version no-refresh)
@@ -15,6 +15,6 @@
 	(package-install package)
       (progn
 	(package-refresh-contents)
-	(require-package package min-version t))))))
+	(require-package package min-version t)))))
 
-(provise 'init-package)
+(provide 'init-package)
