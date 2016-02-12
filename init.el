@@ -21,4 +21,7 @@
 (require 'init-gui)
 
 
+;; Sane default from https://github.com/magnars/.emacs.d/
+(require 'sane-default)
+
 (provide 'init)
