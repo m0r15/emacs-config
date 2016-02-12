@@ -17,6 +17,7 @@
 
 ;; Init
 (require 'init-package)
+(require 'init-autocomplete)
 (require 'init-gui)
 
 
