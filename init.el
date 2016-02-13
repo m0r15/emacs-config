@@ -20,6 +20,12 @@
 (require 'init-autocomplete)
 (require 'init-linum)
 (require 'init-gui)
+(require 'init-buffers)
+(require 'init-markdown)
+(require 'init-org)
+(require 'init-projectile)
+(require 'init-keybindings)
+
 
 
 ;; Sane default from https://github.com/magnars/.emacs.d/
