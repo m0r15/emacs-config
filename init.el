@@ -18,7 +18,11 @@
 ;; Init
 (require 'init-package)
 (require 'init-autocomplete)
+(require 'init-linum)
 (require 'init-gui)
 
+
+;; Sane default from https://github.com/magnars/.emacs.d/
+(require 'sane-default)
 
 (provide 'init)

@@ -9,7 +9,7 @@
 
 ;; Indentation
 (setq-default tab-width 4)
-(setq-default indent-tabs-mode nil)     ; If press TAB, insert SPC
+(setq-default indent-tabs-mode nil) ; If press TAB, insert SPC. Off TAB
 ;(setq indent-line-function 'insert-tab)
 
 ;; show marker in left frint for lines not in buffer
