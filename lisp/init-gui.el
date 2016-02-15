@@ -67,8 +67,8 @@
   (load-theme 'flatland t))
 
 (defun init-fonts ()
-  (set-frame-font "Droid Sans Mono for Powerline-8")
-  (add-to-list 'default-frame-alist '(font . "Droid Sans Mono for Powerline-8")))
+  (set-frame-font "Droid Sans Mono Slashed for Powerline-8")
+  (add-to-list 'default-frame-alist '(font . "Droid Sans Mono Slashed for Powerline-8")))
 
 (defun init-gui-customisations ()
   (init-theme)
