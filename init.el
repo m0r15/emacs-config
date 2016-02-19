@@ -24,6 +24,7 @@
 (require 'init-markdown)
 (require 'init-org)
 (require 'init-projectile)
+(require 'init-web-mode)
 (require 'init-keybindings)
 
 
