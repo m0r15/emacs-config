@@ -4,3 +4,4 @@
 * [markdown](https://guides.github.com/features/mastering-markdown/) - Markdown cheetsheet.
 * [help for custom config](http://www.unix-lab.org/posts/emacs/)
 * [EmacsLisp на русском](http://alexott.net/ru/emacs/elisp-intro/elisp-intro-ru_toc.htmll)
+* [Emacs for beginners](https://habrahabr.ru/post/60906/)
