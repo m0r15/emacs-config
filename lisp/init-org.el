@@ -2,6 +2,8 @@
 
 (require-package 'org)
 
+(add-to-list 'auto-mode-alist '("\\.org$" . org-mode))
+
 ;; Store a note with completed tasks
 (setq org-log-done 'note)
 
