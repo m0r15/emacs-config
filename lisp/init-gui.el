@@ -1,5 +1,6 @@
 ;; for GUI settings
-(require-package 'flatland-theme)
+;(require-package 'flatland-theme)
+(require-package 'flatland-black-theme)
 
 (if (fboundp 'menu-bar-mode) (menu-bar-mode -1))
 (when (fboundp 'tool-bar-mode)
@@ -64,7 +65,7 @@
 
 
 (defun init-theme ()
-  (load-theme 'flatland t))
+  (load-theme 'flatland-black t))
 
 (defun init-fonts ()
   (set-frame-font "Droid Sans Mono Slashed for Powerline-8")
