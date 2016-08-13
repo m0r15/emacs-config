@@ -19,5 +19,7 @@
 (require 'init-package)
 (require 'init-themes)
 (require 'init-linum)
+(require 'init-gui)
+(require 'init-smartparens)
 
 (provide 'init)
