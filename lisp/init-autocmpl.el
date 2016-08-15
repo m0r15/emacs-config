@@ -23,7 +23,9 @@
   (autocmpl-color)
   (global-company-mode))
 
-(add-hook 'after-init-hook 'autocmpl-color)
-;;(add-hook 'after-init-hook 'global-company-mode)
+;;(add-hook 'after-init-hook 'autocmpl-color)
+(add-hook 'after-init-hook 'global-company-mode)
+(autocmpl-color)
 
 (provide 'init-autocmpl)
+
