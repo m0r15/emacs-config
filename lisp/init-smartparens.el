@@ -5,6 +5,6 @@
 (require 'smartparens-config)
 
 ;; хуки
-(add-hook 'emacs-lisp-hook 'smartparens-mode)
+(add-hook 'emacs-lisp-mode-hook 'smartparens-mode)
 
-(provide 'init-smartparens))
+(provide 'init-smartparens)

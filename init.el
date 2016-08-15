@@ -1,6 +1,10 @@
 ;;; init.el - emacs config
 ;;; Initialisation file for Emacs
 
+(setq make-backup-files        nil) ; Don't want backup files
+(setq auto-save-list-file-name nil) ; Don't want .saves files
+(setq auto-save-default        nil) ; Don't want auto saving
+
 (defvar user-lib-dir (expand-file-name "lib" user-emacs-directory))
 (defvar lisp-dir (expand-file-name "lisp" user-emacs-directory))
 
@@ -21,5 +25,10 @@
 (require 'init-linum)
 (require 'init-gui)
 (require 'init-smartparens)
+(require 'init-buffers)
+(require 'init-autocmpl)
+(require 'init-keybindings)
+(require 'init-org)
 
 (provide 'init)
+
