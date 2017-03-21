@@ -9,8 +9,11 @@
   (set-scroll-bar-mode nil))
 
 ;; Indentation
-(setq-default tab-width 4)
 (setq-default indent-tabs-mode nil) ; If press TAB, insert SPC. Off TAB
+(setq-default tab-width 4)
+(setq-default c-basic-offset 4)
+(setq-default standart-indent 4)
+(setq-default lisp-body-indent 4) ;; сдивг Lisp-выражений на 4 пробела
 ;(setq indent-line-function 'insert-tab)
 
 (defun init-powerline ()
@@ -68,8 +71,10 @@
   (load-theme 'flatland-black t))
 
 (defun init-fonts ()
-  (set-frame-font "Droid Sans Mono Slashed for Powerline-8")
-  (add-to-list 'default-frame-alist '(font . "Droid Sans Mono Slashed for Powerline-8")))
+  ;(set-frame-font "Droid Sans Mono Slashed for Powerline-8")
+  (set-frame-font "Hack-9")
+  ;(add-to-list 'default-frame-alist '(font . "Droid Sans Mono Slashed for Powerline-8")))
+  (add-to-list 'default-frame-alist '(font . "Hack-9")))
 
 (defun init-gui-customisations ()
   (init-theme)
